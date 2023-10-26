@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 5px;
+}
+
 body{
     background: #C2F3FF;
     
@@ -28,7 +33,6 @@ body{
     max-width: 600px;
     width: 100%;
     height: auto;
-    flex-direction:row;
     margin: 8px auto;
     padding: 10px;
     text-align: center;
@@ -47,7 +51,6 @@ body{
     border: .8px solid #999999;
     margin: 10px;
     background-image:url(regatavideo.gif);
-    
     border-radius: 20px;
     box-shadow: 1px 1px 10px #999999;
     }
@@ -90,7 +93,9 @@ body{
     display:flex;
     justify-content: center;
     justify-items: center;
-    font-size: 14px;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
     max-width: 600px;
     height: 65px;
     width: 100%;
