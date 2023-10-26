@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+
+.opaco {
+    background-image: url(running-6252827_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    position: relative;
+    isolation: isolate;
+    }
+
+.opaco::after{
+    content: "";
+    background: white;
+    position: absolute;
+        z-index: -1;
+    inset:0;
+    opacity: .8;
+    
+}
+
+
+.container {
+    color: white;
+    background-color: black;
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-size:auto;
+    padding: 10px;
+    box-shadow:4px 4px 10px #999999;
+    border-radius: 20px;
+    border: 3px solid white;
+      }
+
+
+.container2 {
+    display:flex;
+    max-width: 600px;
+    width: 100%;
+    flex-direction:row;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+    background: white;
+    box-shadow: 4px 4px 10px #999999;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.item1 {
+    display: flex;
+    width: 280px;
+    height: 350px;
+    border: .8px solid #999999;
+    margin: 5px;
+    background-image:url(regatavideo.gif);
+    background-size:cover;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #999999;
+    }
+
+.item2 {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 350px;
+    border: .8px solid #999999;
+    margin: 5px;
+    background-image: url(novafit.jpg);
+    background-size:cover;
+    border-radius: 20px;
+     box-shadow: 1px 1px 10px #999999;
+    }
+
+
+.container3 {
+    display:flex;
+    max-width: 600px;
+    width: 100%;
+    flex-direction:column;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+    color: #4D4D4D;
+    background: white;
+    box-shadow: 4px 4px 10px #999999;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+
+
+.container4 {
+    display:flex;
+    max-width: 600px;
+    width: 100%;
+    flex-direction:column;
+    margin: 10px auto;
+    padding: 8px;
+    text-align: center;
+    color: #4D4D4D;
+    background: white;
+    box-shadow: 4px 4px 10px #999999;
+    border-radius: 20px;
+    border: 3px solid white;
+    
+}
+    
+
