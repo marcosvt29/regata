@@ -43,22 +43,20 @@ body{
 }
 
 .item1 {
-    display: flex;
     width: 260px;
-    height: 350px;
+    height: 300px;
     border: .8px solid #999999;
     margin: 10px;
     background-image:url(regatavideo.gif);
-    background-size: cover;
+    
     border-radius: 20px;
     box-shadow: 1px 1px 10px #999999;
     }
 
 .item2 {
-    display: flex;
-    flex-direction: row;
+    
     width: 260px;
-    height: 350px;
+    height: 300px;
     margin: 10px;
     border: .8px solid #999999;
     background-image: url(novafit.jpg);
