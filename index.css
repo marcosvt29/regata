@@ -11,13 +11,16 @@ body{
     width: 100%;
     margin: auto;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .opaco {
     background-image: url(running-6252827_1280.jpg);
     background-size: cover;
     background-position: center;
-    display:grid;
+    max-width: 600px;
+    width: 100%;
     place-content: center;
     position: relative;
     isolation: isolate;
