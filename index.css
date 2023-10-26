@@ -33,6 +33,8 @@ body{
     padding: 10px;
     text-align: center;
     justify-content: center;
+    align-content: center;
+    align-items: center;
     background: white;
     box-shadow: 4px 4px 10px #999999;
     border-radius: 20px;
