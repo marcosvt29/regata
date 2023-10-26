@@ -1,41 +1,8 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: serif;
-    box-sizing: border-box;
-}
-
 body{
-    display: flex;
-    max-width: 600px;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.opaco {
     background-image: url(running-6252827_1280.jpg);
     background-size: cover;
-    background-position: center;
-    max-width: 600px;
-    width: 100%;
-    place-content: center;
-    position: relative;
-    isolation: isolate;
-    }
-
-.opaco::after{
-    content: "";
-    background: white;
-    position: absolute;
-        z-index: -1;
-    inset:0;
-    opacity: .8;
     
 }
-
 
 .container {
     color: white;
@@ -62,9 +29,10 @@ body{
     max-width: 600px;
     width: 100%;
     flex-direction:row;
-    margin: 10px auto;
-    padding: 8px;
+    margin: 8px auto;
+    padding: 10px;
     text-align: center;
+    justify-content: center;
     background: white;
     box-shadow: 4px 4px 10px #999999;
     border-radius: 20px;
@@ -73,12 +41,12 @@ body{
 
 .item1 {
     display: flex;
-    width: 280px;
+    width: 260px;
     height: 350px;
     border: .8px solid #999999;
-    margin: 5px;
+    margin: 10px;
     background-image:url(regatavideo.gif);
-    background-size:cover;
+    background-size: cover;
     border-radius: 20px;
     box-shadow: 1px 1px 10px #999999;
     }
@@ -86,10 +54,10 @@ body{
 .item2 {
     display: flex;
     flex-direction: row;
-    width: 280px;
+    width: 260px;
     height: 350px;
+    margin: 10px;
     border: .8px solid #999999;
-    margin: 5px;
     background-image: url(novafit.jpg);
     background-size:cover;
     border-radius: 20px;
@@ -98,12 +66,16 @@ body{
 
 
 .container3 {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
     max-width: 600px;
     width: 100%;
-    flex-direction:column;
-    margin: 10px auto;
-    padding: 8px;
+    height: 65px;
+    margin: 8px auto;
+    padding: 10px;
     text-align: center;
     color: #4D4D4D;
     background: white;
@@ -117,10 +89,11 @@ body{
 .container4 {
     display:flex;
     max-width: 600px;
+    height: 65px;
     width: 100%;
     flex-direction:column;
-    margin: 10px auto;
-    padding: 8px;
+    margin: 8px auto;
+    padding: 10px;
     text-align: center;
     color: #4D4D4D;
     background: white;
