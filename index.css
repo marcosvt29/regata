@@ -5,12 +5,17 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 .opaco {
     background-image: url(running-6252827_1280.jpg);
     background-size: cover;
     background-position: center;
-    display: grid;
+    display:grid;
     place-content: center;
     position: relative;
     isolation: isolate;
